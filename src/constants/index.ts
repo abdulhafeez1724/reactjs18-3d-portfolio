@@ -190,7 +190,7 @@ const projects: TProject[] = [
   {
     name: "Real-Time Taxi App",
     description:
-      "ride-sharing application that incorporates a React frontend with a Django backend in a Docker container The focus of this course is the real-time communication between client and server.",
+      "ride-sharing application that incorporates a React frontend with a Django backend in a Docker container The focus of this course is the real-time communication between client and server..",
     tags: [
       {
         name: "Python",
