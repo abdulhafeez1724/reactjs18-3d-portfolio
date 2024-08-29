@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Abdul Hafeez",
-    p: ["I am fullstack Developer", "Restfull API Developer"],
+    p: ["I am fullstack Developer", "PYTHON DJANGO REACT"],
   },
   contact: {
     p: "Get in touch",
