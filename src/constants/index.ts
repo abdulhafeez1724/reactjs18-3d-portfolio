@@ -8,30 +8,24 @@ import type {
 } from "../types";
 
 import {
+  python,
+  django,
+  restfullapi,
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
+  codematics,
+  mobify,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
+  taxiapp,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,20 +49,37 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Restfull API Creator",
+    icon: restfullapi,
   },
 ];
 
 const technologies: TTechnology[] = [
+
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Restfull API",
+    icon: restfullapi,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -81,41 +92,14 @@ const technologies: TTechnology[] = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -125,55 +109,39 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Full Stack Developer - Internship",
+    companyName: "Codmatics. inc",
+    icon: codematics,
+    iconBg: "#383E56",
+    date: "Sept  2021 - Nov 2021",
+    points: [
+      "At Codematics, I mastered the essentials of web development, diving deep into HTML, CSS, and JavaScript, while building dynamic web apps with Python Django in just 3 months.",
+      "My internship at Codematics was a launchpad into the world of programming, where I gained hands-on experience with core technologies like HTML, CSS, JS, and Python Django.",
+      "In just 3 months at Codematics, I went from zero to confidently developing websites and applications using HTML, CSS, JavaScript, and Python Django.",
+    ],
+  },
+
+  {
+    title: "Full Stack Developer",
+    companyName: "M3hive",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2022 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Experienced Python Django & React Developer | Full-Stack | RESTful APIs Experienced Python Django and React Developer with expertise in full-stack development, RESTful APIs, testing, and Agile methodologies.",
+      "Python, Django, React, and database management. Proficient in version control and delivering high-quality web applications. Looking for opportunities to contribute and collaborate",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Python Django Developer",
+    companyName: "Mobify",
+    icon: mobify,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working as a backend developer at Mobify, I am responsible for building and maintaining complex, high-performance systems using Python Django and GraphQL",
+      "My expertise lies in creating robust and scalable RESTful APIs tailored for Android applications and game development platforms", 
+      "By focusing on efficient database management, secure API endpoints, and seamless integration, I ensure that the applications can handle high volumes of traffic while delivering optimal user experiences. My role also involves close collaboration with front-end teams and developers, ensuring that backend logic and API functionalities align perfectly with the overall system architecture, providing a solid foundation for future growth and innovation.",
     ],
   },
 ];
@@ -181,93 +149,76 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "ABDUL HAFEEZ is best in thinking and solving complex problem in backend .",
+    name: "Shanyar Khan",
+    designation: "Site Project",
+    company: "Freelance",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQE8KQRV4_2plA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1709843764543?e=1730332800&v=beta&t=-BNPOM8m5gKfOiplDH_tD1cNum-2g4nmWxyxAyAwTdI",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Ecommerce Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern online store built in HTML, CSS, and JavaScript and backend using Python Django.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Ajax",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/abdulhafeez1724/Online-market-place-in-django",
   },
   {
-    name: "Job IT",
+    name: "Real-Time Taxi App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ride-sharing application that incorporates a React frontend with a Django backend in a Docker container The focus of this course is the real-time communication between client and server.",
     tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "Django Channels",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Redis ",
+        color: "white-text-gradient",
+      },
+      {
+        name: "WebSockets  ",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: taxiapp,
+    sourceCodeLink: "https://github.com/abdulhafeez1724/taxi-app",
   },
 ];
 

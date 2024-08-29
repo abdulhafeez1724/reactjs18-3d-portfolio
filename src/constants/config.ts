@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Abdul Hafeez",
+    fullName: "Abdul Hafeez",
+    email: "ahafeez791@@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Abdul Hafeez",
+    p: ["I am fullstack Developer", "Restfull API Developer"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,9 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `Experienced Python Django and JavaScript Developer | Creating robust web applications to drive digital success
+                Passionate about crafting exceptional web experiences, I am an experienced Python Django and JavaScript developer with a proven track record in delivering high-quality solutions. With a solid foundation in full-stack development, I possess expertise in designing and implementing efficient back-end systems using Django's powerful framework, while leveraging JavaScript for dynamic front-end interactions.
+                My technical skillset includes proficiency in HTML, CSS, jQuery, and RESTful APIs, allowing me to create seamless user interfaces and integrate with various third-party services. I am well-versed in database management and have experience working with SQL and NoSQL databases, ensuring efficient data storage and retrieval`,
     },
     experience: {
       p: "What I have done so far",
