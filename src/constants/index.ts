@@ -25,6 +25,7 @@ import {
   mobify,
   carrent,
   taxiapp,
+  mobifytech,
 
 } from "../assets";
 
@@ -219,6 +220,39 @@ const projects: TProject[] = [
     ],
     image: taxiapp,
     sourceCodeLink: "https://github.com/abdulhafeez1724/taxi-app",
+  },
+  {
+    name: "Mobify Tech",
+    description:
+      "design figma design into reality using frontend technologies like HTML, CSS, and JavaScript React and backend technologies like Python Django.  ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django Channels",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Redis ",
+        color: "white-text-gradient",
+      },
+      {
+        name: "WebSockets  ",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mobifytech,
+    sourceCodeLink: "https://mobify.tech/",
   },
 ];
 

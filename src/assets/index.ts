@@ -31,6 +31,7 @@ import codematics from "./company/codematics.png";
 
 import carrent from "./carrent.png";
 import taxiapp from "./Taxiapp.webp";
+import mobifytech from "./mobifytech.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -61,6 +62,7 @@ export {
   mobify,
   carrent,
   taxiapp,
+  mobifytech,
   tripguide,
   python,
   django,
